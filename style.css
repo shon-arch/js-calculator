@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+
+
+.cal-body{
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    margin: 80px auto 0px auto;
+    flex-wrap: wrap;
+    background-color: lightslategrey;
+    padding: 40px 20px;
+    border : 2px black solid; 
+    border-radius: 10px;
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    font-size: 24px;
+    border: 0.5px black solid;
+    background-color: whitesmoke;
+}
+button:hover{
+    background-color: lightgrey;
+}
+
+.display{
+    width: 335px;
+    height: 80px;
+    background-color: lightgrey;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
